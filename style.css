@@ -1,4 +1,16 @@
 
+/* Aula 09
+p{
+    color: red; text-align: justify; text-indent: 20px; 
+    line-height: 30px; direction: ltr; letter-spacing: 5px;
+    word-spacing: 10px;
+}
+h1{
+    text-shadow: 3px 3px 4px red;
+}
+*/
+
+/* Aula 08
 p{
     color: red; text-transform: capitalize;
 }
@@ -11,7 +23,7 @@ h2{
 h3{
     text-align: center; text-decoration: line-through;
 }
-
+*/
 
 /* Aula 07
 #exemplo2{
