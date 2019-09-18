@@ -1,17 +1,21 @@
 
 
+#exemplo2{
+    background-color: red;
+    color: #fff;
+    width: 500px;
+    margin: 20px 20px 0px 40px;
+}
 
-/* Aula 08
 #exemplo{
     background-color: green;
     color: #ffffff;
     width: 500px;
     padding: 20px 5px 10px 50px;
-    
-}
-*/
+    }
 
-/* Aula 07
+
+/* Aula 06
 #conteudo{
     background-color: green; color:white;
     padding: 20px; min-width: 500px; height: 100px;
