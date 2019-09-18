@@ -1,4 +1,16 @@
 
+p{
+    color: red; text-transform: capitalize;
+}
+h1{
+    text-align: left; text-decoration: underline;
+}
+h2{
+    text-align: right; text-decoration: overline;
+}
+h3{
+    text-align: center; text-decoration: line-through;
+}
 
 
 /* Aula 07
