@@ -1,5 +1,10 @@
 
+#cores{
+    width: 200px; height: 200px; 
+    background: radial-gradient(red, green);
+*/
 
+/* Aula 16
 #cores{
     width: 200px; height: 200px; background-color: rgba(82, 189, 87, 0.555); 
 }
