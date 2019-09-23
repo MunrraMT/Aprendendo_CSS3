@@ -1,8 +1,11 @@
 
 
+#cores{
+    width: 200px; height: 200px; background-color: rgba(82, 189, 87, 0.555); 
+}
+*/
 
-
-/ Aula 14
+/* Aula 14
 h1{
     font-family: 'Saira Stencil One', cursive;
 }
