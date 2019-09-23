@@ -1,4 +1,10 @@
 
+
+#exemplo{width: 200px; height: 200px; background-color: red; transition: all 2s linear;}
+#exemplo:hover{width: 350px; height: 350px; background-color: green;}
+*/
+
+/* Aula 20
 #exemplo01{border-style: solid; border-width: 8px;border-color: red;}
 #exemplo02{border: solid 5px red;}
 #exemplo03{border-left: groove 10px green;border-right: solid 5px red;border-top: dotted 2px blue;border-bottom: double 5px yellow;}
