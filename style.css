@@ -1,5 +1,11 @@
 
+#exemplo01{border-style: solid; border-width: 8px;border-color: red;}
+#exemplo02{border: solid 5px red;}
+#exemplo03{border-left: groove 10px green;border-right: solid 5px red;border-top: dotted 2px blue;border-bottom: double 5px yellow;}
+#exemplo04{border: solid 5px red; outline: dotted 10px blue;}
+*/
 
+/* Aula 19
 #conteudo{width: 600px; height: 1200px; background-color: red; position: relative;}
 #texto{width: 500px; background-color: green; 
     position: fixed; left: 0px; top: 40px;}
