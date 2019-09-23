@@ -1,4 +1,16 @@
 
+#base{
+    background-color: green; width: 600px; height: 600px;
+}
+#esquerda{
+    background-color: red; width: 300px; height: 300px; float: left;
+}
+#direita{
+    background-color: blue; width: 300px; height: 300px; float: right;
+}
+*/
+
+/* Aula 17
 #cores{
     width: 200px; height: 200px; 
     background: radial-gradient(red, green);
