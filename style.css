@@ -1,5 +1,17 @@
 
 
+
+body{
+    background-color: rgba(255, 0, 0, 0.623);
+    background-image: url(./modulo01/matrix.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+*/
+
+/* Aula 21
 #exemplo{width: 200px; height: 200px; background-color: red; transition: all 2s linear;}
 #exemplo:hover{width: 350px; height: 350px; background-color: green;}
 */
