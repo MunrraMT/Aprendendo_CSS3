@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso de CSS3 para Iniciantes</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<style>
+.container{background-color: red; width: 500px; margin: 0 auto;}
+.box1{background-color: green; width: 150px; height: 150px; float: left}
+.box2{background-color: blue; width: 150px; height: 150px; float: right}
+.container::before, .container::after{content: ""; display: table;}
+.container::after{clear: both;}
+</style>
+
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        
+    </div>
+
+</body>
+</html>
