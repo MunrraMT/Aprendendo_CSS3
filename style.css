@@ -1,4 +1,11 @@
 
+.noticia:target{
+    background-color: rgb(78, 78, 124);
+    padding: 10px;
+}
+*/
+
+/* Aula 26
 :root{
     --bg-color: blue;
     --cor-do-texto: white;
