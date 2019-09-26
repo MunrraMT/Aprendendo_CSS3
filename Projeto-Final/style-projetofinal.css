@@ -1,19 +1,35 @@
-/* Puxando Fontes */
-<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-/* Puxando Fontes */
+/* Remoção da aparencia dos links */
+a:link {text-decoration: none;color: #ffffff}
+a:active {text-decoration: none;}
+a:visited {text-decoration: none;color: #ffffff}
+a:hover {text-decoration: none;color: #ffac31; font-weight: bold;}
+/* Remoção da aparencia dos links */
 
-a{text-decoration: none;}
-h1{
+#titulo{
     text-align: center;
-    font-family: 'Righteous', cursive;
-    font-size: 80px;
-    border: 10px; 
-    border-style: outset;
-    border-radius: 30px;
-    border-color: rgb(13, 13, 58);
-    background-color: rgb(13, 13, 58);
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 33px;
+    color: black;
+    padding: 25px;
+    border: 5px solid rgb(8, 5, 31); 
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(125,125,125,1) 100%); 
+    border-radius: 50px 50px 0 0;   
+}
+h1{display: inline;}
+#logotituloesquerda{float: left; box-shadow: 3px 3px 3px black}
+#logotitulodireita{float: right;}
+#menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
     color: white;
-    padding: 20px;
-
-
+    padding: calc(18px - 5px) 0px 18px 0px;
+    border: 0px solid;
+    background-color: rgb(8, 5, 31);
+    border-radius: 0px 0px 50px 50px;
+    font-size: 15px;
+}
+#navegador{
+    margin: 0px 20px 0px 20px;
+    box-shadow: 
 }
