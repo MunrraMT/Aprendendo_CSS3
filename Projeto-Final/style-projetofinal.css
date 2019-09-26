@@ -5,19 +5,24 @@ a:visited {text-decoration: none;color: #ffffff}
 a:hover {text-decoration: none;color: #ffac31; font-weight: bold;}
 /* Remoção da aparencia dos links */
 
+.sombrapng{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
 #titulo{
     text-align: center;
     font-family: 'Saira Stencil One', cursive;
     font-size: 33px;
-    color: black;
+    color: #ffac31;
     padding: 25px;
-    border: 5px solid rgb(8, 5, 31); 
+    border: 5px solid rgb(16, 10, 61);
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(125,125,125,1) 100%); 
     border-radius: 50px 50px 0 0;   
 }
 h1{display: inline;}
-#logotituloesquerda{float: left; box-shadow: 3px 3px 3px black}
+#logotituloesquerda{float: left;}
 #logotitulodireita{float: right;}
 #menu{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,11 +30,10 @@ h1{display: inline;}
     color: white;
     padding: calc(18px - 5px) 0px 18px 0px;
     border: 0px solid;
-    background-color: rgb(8, 5, 31);
+    background-color: rgb(16, 10, 61);
     border-radius: 0px 0px 50px 50px;
     font-size: 15px;
 }
 #navegador{
     margin: 0px 20px 0px 20px;
-    box-shadow: 
 }
