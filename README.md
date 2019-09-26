@@ -1,5 +1,5 @@
 # Aprendendo CSS3
-### Curso de CSS3 para iniciantes -  Node Studio Treinamentos - Usando Notepad++
+### Curso de CSS3 para iniciantes -  Node Studio Treinamentos - Usando VS Code.
 
 Clique [AQUI](https://github.com/MunrraMT/Aprendendo_CSS3) para ver o GitHUB.
 
