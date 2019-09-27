@@ -1,14 +1,39 @@
 /* Estilo dos links do menu */
-a:link {text-decoration: none;color: #ffffff}
-a:visited {text-decoration: none;color: #ffffff}
-a:hover {
+a.linkmenu:link {text-decoration: none;color: #ffffff}
+a.linkmenu:visited {text-decoration: none;color: #ffffff}
+a.linkmenu:hover {
     text-decoration: none;
     background-color: #ffac31; 
     color: #000000;
     transition: 0.4s;
 }
-a:active {text-decoration: none;}
+a.linkmenu:active {text-decoration: none;}
 /* Estilo dos links do menu */
+
+/* Estilo dos links de retorno azul */
+a.retornoazul:link {text-decoration: none;color: #ffffff}
+a.retornoazul:visited {text-decoration: none;color: #ffffff}
+a.retornoazul:hover {
+    text-decoration: none;
+    background-color: #ffac31; 
+    color: black;
+    transition: 0.4s;
+}
+a.retornoazul:active {text-decoration: none;}
+/* Estilo dos links de retorno azul */
+
+/* Estilo dos links de retorno amarelo */
+a.retornoamarelo:link {text-decoration: none;color: #ffffff}
+a.retornoamarelo:visited {text-decoration: none;color: #ffffff}
+a.retornoamarelo:hover {
+    text-decoration: none;
+    background-color: rgb(16, 10, 61); 
+    color: white;
+    transition: 0.4s;
+}
+a.retornoamarelo:active {text-decoration: none;}
+/* Estilo dos links de retorno amarelo */
+
 .sombrapng{
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
@@ -52,35 +77,40 @@ h1{display: inline; margin: 0 20px 0 20px;}
     position: relative;
     margin: -13px 0 0 0;   
 }
-.imagemtodatela{width: 100vw; height: auto;}
-.textoemimagem{
-    position: absolute;
-    color: #ffac31;
+.barraazul{
+    background-color: rgb(16, 10, 61);
+    width: 100%;
+    height: 30px;
+    margin: -5px 0 0 0;
+}
+.imagemtodatela{width: 100%; height: auto;}
+.textointroducao{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(125,125,125,1) 100%); 
+    padding: 3%;
+    margin: 0 0 40px 0;
+    color: rgb(16, 10, 61);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 3px 3px 3px black;
     line-height: 110%;
     text-align: justify;
-    font-size: 1.3vw;
-    top: 10%;
-    margin: 0 4% 0 3%;
+    font-size: 1.4vw;
+    
 }
+.imagemedireita{float: right; padding: 0px 0px 30px 30px;}
 h3{
     text-align: center;
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
-    font-family: 'Saira Stencil One', cursive;
+    text-shadow: 3px 3px 3px black;
     font-size: 30px;
+    font-family: 'Saira Stencil One', cursive;
+    margin: 0;
+    padding: 0;
 }
-p{
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
-}
+p{text-shadow: 3px 3px 3px black;}
 .artigos{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.35vw;
     text-align: justify;
     color: white;      
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #infancia{
     background-color: #ffac31;
@@ -99,4 +129,104 @@ p{
     width: 67%;
     float: left;
     height: 520px;
+}
+#familia{
+    background-color: rgb(16, 10, 61);
+    box-sizing: border-box;
+    margin: -0 0 0 0;
+    padding: 20px;
+    width: 47%;
+    float: left;
+    height: 750px;
+}
+#inicioartesmarciais{
+    background-color: #ffac31;
+    box-sizing: border-box;
+    margin: -0 0 0 0;
+    padding: 20px;
+    width: 53%;
+    float: left;
+    height: 750px;
+}
+#deixandohongkong{
+    background-color: #ffac31;
+    box-sizing: border-box;
+    margin: -0 0 0 0;
+    padding: 20px;
+    width: 53%;
+    float: left;
+    height: 650px;
+}
+#avidanoseua{
+    background-color: rgb(16, 10, 61);
+    box-sizing: border-box;
+    margin: -0 0 0 0;
+    padding: 20px;
+    width: 47%;
+    float: left;
+    height: 650px;
+}
+#junfankungfu{
+    background-color: rgb(16, 10, 61);
+    box-sizing: border-box;
+    margin: -0 0 0 0;
+    padding: 20px;
+    width: 30%;
+    float: left;
+    height: 850px;
+}
+#jeetkunedo{
+    background-color: #ffac31;
+    box-sizing: border-box;
+    margin: -0 0 0 0;
+    padding: 20px;
+    width: 70%;
+    float: left;
+    height: 850px;
+}
+#longbeach{
+    background-color: #ffac31;
+    box-sizing: border-box;
+    margin: -0 0 0 0;
+    padding: 20px;
+    width: 100%;
+    float: left;
+}
+#carreiraartistica{
+    background-color: rgb(16, 10, 61);
+    box-sizing: border-box;
+    margin: -0 0 0 0;
+    padding: 20px;
+    width: 100%;
+    float: left;
+}
+#filosofia{
+    background-color: #ffac31;
+    box-sizing: border-box;
+    margin: -0 0 0 0;
+    padding: 20px;
+    width: 21%;
+    float: left;
+    height: 1250px;
+}
+#morte{
+    background-color: rgb(16, 10, 61);
+    box-sizing: border-box;
+    margin: -0 0 30px 0;
+    padding: 20px;
+    width: 79%;
+    float: left;
+    height: 1250px;
+}
+.textofinal{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(125,125,125,1) 100%); 
+    margin: 0 0 0 0;
+    padding: 20px;
+    color: rgb(16, 10, 61);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 110%;
+    text-align: justify;
+    font-size: 1.4vw;
+    text-align: center;
 }
