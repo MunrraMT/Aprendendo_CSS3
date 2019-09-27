@@ -21,7 +21,7 @@ a:hover {text-decoration: none;color: #ffac31; font-weight: bold;}
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(125,125,125,1) 100%); 
     border-radius: 50px 50px 0 0; 
 }
-h1{display: inline;}
+h1{display: inline; margin: 0 20px 0 20px;}
 .simbolotitulo{vertical-align: -25px;}
 #menu{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
