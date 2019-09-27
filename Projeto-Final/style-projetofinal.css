@@ -47,19 +47,23 @@ h1{display: inline; margin: 0 20px 0 20px;}
     line-height: 50px;
     margin: -8px 0 0 0;
 }
-.imagembannerprincipal{width: 100vw; height: auto;}
+.imagemtodatela{width: 100vw; height: auto;}
 .banner{
     display: inline-block; 
     position: relative;
-    margin: -13px 0 0 0;
+    margin: -13px 0 0 0;    
 }
-.banner figcaption{
+.textoembaixoimagem{
     position: absolute;
-    top: 40%;
-    margin: 5%;
+    top: 25%;
+    margin: 10%;
     font-size: 2vw;
     color: #ffac31;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 3px 3px black;
     line-height: 130%;
+    text-align: justify;
+}
+#conteudotextobanner01{
+    
 }
