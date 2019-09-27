@@ -1,6 +1,5 @@
 /* Estilo dos links do menu */
 a:link {text-decoration: none;color: #ffffff}
-a:active {text-decoration: none;}
 a:visited {text-decoration: none;color: #ffffff}
 a:hover {
     text-decoration: none;
@@ -8,6 +7,7 @@ a:hover {
     color: #000000;
     transition: 0.4s;
 }
+a:active {text-decoration: none;}
 /* Estilo dos links do menu */
 .sombrapng{
     -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -47,23 +47,62 @@ h1{display: inline; margin: 0 20px 0 20px;}
     line-height: 50px;
     margin: -8px 0 0 0;
 }
-.imagemtodatela{width: 100vw; height: auto;}
 .banner{
     display: inline-block; 
     position: relative;
-    margin: -13px 0 0 0;    
+    margin: -13px 0 0 0;   
 }
-.textoembaixoimagem{
+.imagemtodatela{width: 100vw; height: auto;}
+.textoemimagem{
     position: absolute;
-    top: 25%;
-    margin: 10%;
-    font-size: 2vw;
     color: #ffac31;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 3px 3px black;
     line-height: 130%;
     text-align: justify;
 }
-#conteudotextobanner01{
-    
+#textobanner01{
+    font-size: 2vw;
+    top: 20%;
+    margin: 10%;
+    animation-name: fade1;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+#textobanner02{
+    font-size: 1.75vw;
+    top: 13%;
+    margin: 0 10% 0 10%;
+    animation-name: fade2;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;   
+    animation-timing-function: ease-in;
+}
+#textobanner03{
+    font-size: 1.75vw;
+    top: 12%;
+    margin: 0 10% 0 10%;
+    animation-name: fade3;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes fade1{
+    0%{opacity: 1;}
+    25%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes fade2{
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes fade3{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
 }
