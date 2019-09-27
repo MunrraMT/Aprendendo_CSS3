@@ -51,12 +51,12 @@ h1{display: inline; margin: 0 20px 0 20px;}
 .banner{
     display: inline-block; 
     position: relative;
-    margin: -12px 0 0 0;
+    margin: -13px 0 0 0;
 }
 .banner figcaption{
     position: absolute;
-    top: 250px;
-    margin: 40px;
+    top: 40%;
+    margin: 5%;
     font-size: 2vw;
     color: #ffac31;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
