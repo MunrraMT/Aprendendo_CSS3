@@ -22,8 +22,7 @@ a:hover {text-decoration: none;color: #ffac31; font-weight: bold;}
     border-radius: 50px 50px 0 0; 
 }
 h1{display: inline;}
-#logotituloesquerda{float: left;}
-#logotitulodireita{float: right;}
+.simbolotitulo{vertical-align: -25px;}
 #menu{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -36,5 +35,4 @@ h1{display: inline;}
 }
 #navegador{
     margin: 0px 100px 0px 100px;
-    overflow: hidden;
 }
