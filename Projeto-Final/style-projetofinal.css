@@ -1,15 +1,18 @@
-/* Remoção da aparencia dos links */
+/* Estilo dos links do menu */
 a:link {text-decoration: none;color: #ffffff}
 a:active {text-decoration: none;}
 a:visited {text-decoration: none;color: #ffffff}
-a:hover {text-decoration: none;color: #ffac31; font-weight: bold;}
-/* Remoção da aparencia dos links */
-
+a:hover {
+    text-decoration: none;
+    background-color: #ffac31; 
+    color: #000000;
+    transition: 0.4s;
+}
+/* Estilo dos links do menu */
 .sombrapng{
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
 }
-
 #titulo{
     text-align: center;
     font-family: 'Saira Stencil One', cursive;
@@ -43,4 +46,20 @@ h1{display: inline; margin: 0 20px 0 20px;}
     text-align: center;
     line-height: 50px;
     margin: -8px 0 0 0;
+}
+.imagembannerprincipal{width: 100vw; height: auto;}
+.banner{
+    display: inline-block; 
+    position: relative;
+    margin: -12px 0 0 0;
+}
+.banner figcaption{
+    position: absolute;
+    top: 250px;
+    margin: 40px;
+    font-size: 2vw;
+    color: #ffac31;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 3px black;
+    line-height: 130%;
 }
