@@ -58,51 +58,45 @@ h1{display: inline; margin: 0 20px 0 20px;}
     color: #ffac31;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 3px 3px black;
-    line-height: 130%;
+    line-height: 110%;
     text-align: justify;
+    font-size: 1.3vw;
+    top: 10%;
+    margin: 0 4% 0 3%;
 }
-#textobanner01{
-    font-size: 2vw;
-    top: 20%;
-    margin: 10%;
-    animation-name: fade1;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+h3{
+    text-align: center;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 30px;
 }
-#textobanner02{
-    font-size: 1.75vw;
-    top: 13%;
-    margin: 0 10% 0 10%;
-    animation-name: fade2;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;   
-    animation-timing-function: ease-in;
+p{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
-#textobanner03{
-    font-size: 1.75vw;
-    top: 12%;
-    margin: 0 10% 0 10%;
-    animation-name: fade3;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+.artigos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.35vw;
+    text-align: justify;
+    color: white;      
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-@keyframes fade1{
-    0%{opacity: 1;}
-    25%{opacity: 0;}
-    75%{opacity: 0;}
-    100%{opacity: 1;}
+#infancia{
+    background-color: #ffac31;
+    box-sizing: border-box;
+    margin: -40px 0 0 0;
+    padding: 20px;
+    width: 33%;
+    float: left;
+    height: 520px;
 }
-@keyframes fade2{
-    0%{opacity: 0;}
-    25%{opacity: 1;}
-    75%{opacity: 0;}
-    100%{opacity: 0;}
-}
-@keyframes fade3{
-    0%{opacity: 0;}
-    25%{opacity: 0;}
-    75%{opacity: 1;}
-    100%{opacity: 0;}
+#nomes{
+    background-color: rgb(16, 10, 61);
+    box-sizing: border-box;
+    margin: -40px 0 0 0;
+    padding: 20px;
+    width: 67%;
+    float: left;
+    height: 520px;
 }
