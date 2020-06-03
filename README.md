@@ -2,7 +2,7 @@
 ### Curso de CSS3 para iniciantes -  Node Studio Treinamentos - Usando VS Code.
 
 ### Desenvolvido por André Rodrigues.
-### email de contato: andre_santos_t@hotmail.com
+### email de contato: dev-asantos@outlook.com
 
 Clique [AQUI](https://github.com/MunrraMT/Aprendendo_CSS3) para ver o GitHUB.
 
